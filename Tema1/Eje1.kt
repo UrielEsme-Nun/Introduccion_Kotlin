@@ -1,7 +1,5 @@
 fun main() {
-    val greenNumbers = listOf(1, 4, 23)
-    val redNumbers = listOf(17, 2)
-    
-    val totalCount = greenNumbers.count() + redNumbers.count()
-    println(totalCount)
+    val name = "Mary"
+    val age = 20
+    println("$name is $age years old")
 }
